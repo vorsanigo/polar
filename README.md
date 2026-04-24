@@ -36,7 +36,10 @@ one task can support the learning of the other ones.
 
 The final configurations of our system are [S1, S2, S3] for subtasks 1 and 2, where the model sees all the three subtasks, while [S1, S3] for subtask 3. We use the multilingual model XLM-RoBERTa for all languages with the exception of English, Italian, Spanish, and Polish, for which we use language-specific models.
 
-## TODO ADD FIG
+<p align="center">
+    <img src="img/sys_machamp.png" width="800" alt="System overview image">
+    <b>Fig. 2</b>: <i> High-level overview of our multi-task learning framework for polarization detection and classification, with an example from the \texttt{train} set and associated output labels for the three \textsc{polar} subtasks.</i>
+</p>
 
 ## Getting started
 
