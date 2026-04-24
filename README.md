@@ -44,7 +44,13 @@ We built our models on top of [MaChAmp](https://github.com/machamp-nlp/machamp) 
 
 ### Environment
 
+Dependencies are listed in [`requirements.txt`](requirements.txt) You can run the following commands to create the virtual environment using conda:
 
+```
+conda create --name polar_venv          # create the environment
+conda activate polar_venv               # activate the environment
+pip install --user -r requirements.txt  # install the required packages
+```
 
 ### Data
 
