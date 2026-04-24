@@ -34,10 +34,10 @@ Our approach relies on multi-task learning, motivated by the observation that th
 Multitask learning is a paradigm that enables a model to learn shared representations across tasks, so that information from 
 one task can support the learning of the other ones.
 
-The final configurations of our system are [S1, S2, S3] for subtasks 1 and 2, where the model sees all the three subtasks, while [S1, S3] for subtask 3. We use the multilingual model XLM-RoBERTa for all languages with the exception of English, Italian, Spanish, and Polish, for which we use language-specific models.
+The final configurations of our system are [S1, S2, S3] for subtasks 1 and 2, where the model sees all three subtasks, while [S1, S3] for subtask 3. We use the multilingual model XLM-RoBERTa for all languages with the exception of English, Italian, Spanish, and Polish, for which we use language-specific models.
 
 <p align="center">
-    <img src="img/sys_machamp.jpg" width="500" alt="System overview image">
+    <img src="img/sys_machamp.jpg" width="650" alt="System overview image">
     <b>Fig. 1</b>: <i> High-level overview of our multi-task learning framework for polarization detection and classification, with an example from the \texttt{train} set and associated output labels for the three \textsc{polar} subtasks.</i>
 </p>
 
