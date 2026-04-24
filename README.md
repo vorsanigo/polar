@@ -61,50 +61,65 @@ To have the data in the right format to be passed to MachAmp, run the python scr
 ### Multilingual (for all languages except English, Italian, Spanish, and Polish)
 
 #### Subtask 1 and 2
-`python3 train.py --dataset_config configs/multilingual_1_2_3_parallel_s1_s2_s3_v2.json \
+```
+python3 train.py --dataset_config configs/multilingual_1_2_3_parallel_s1_s2_s3_v2.json \
                 --parameters_config configs/params_multi.json \
-                --device 0`
+                --device 0
+```
 
 #### Subtask 3
+```
 python3 train.py --dataset_config configs/multilingual_1_3_parallel_weighted_v2_2.json \
                 --parameters_config configs/params_multi.json \
                 --device 0
+```
 
 ### English
-
+```
 #### Subtask 1 and 2
 python3 train.py --dataset_config configs/eng_1_2_3_parallel_s1_s2_s3_v2.json \
                 --parameters_config configs/params_eng.json \
                 --device 0
+```
 
 #### Subtask 3
+```
 python3 train.py --dataset_config configs/eng_1_3_parallel_weighted_v2_2.json \
                 --parameters_config configs/params_eng.json \
                 --device 0
+```
 
 ### Spanish
 
 #### Subtask 1 and 2
+```
 python3 train.py --dataset_config configs/spa_1_2_3_parallel_s1_s2_s3_v2.json \
                 --parameters_config configs/params_spa.json \
                 --device 0
+```
 
 #### Subtask 3
+```
 python3 train.py --dataset_config configs/spa_1_3_parallel_weighted_v2_2.json \
                 --parameters_config configs/params_spa.json \
                 --device 0
+```
 
 
 ### Italian
 
 #### Subtask 1 and 2
+```
 python3 train.py --dataset_config configs/ita_1_2_parallel_weighted_v2.json \
                 --parameters_config configs/params_ita.json \
                 --device 0
+```
 
 ### Polish
 
 #### Subtask 1 and 2
+```
 python3 train.py --dataset_config configs/pol_1_2_parallel_weighted_v2.json \
                 --parameters_config configs/params_pol.json \
                 --device 0
+```
