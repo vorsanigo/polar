@@ -132,3 +132,75 @@ python3 train.py --dataset_config configs/pol_1_2_parallel_weighted_v2.json \
                 --parameters_config configs/params_pol.json \
                 --device 0
 ```
+
+
+## Prediction
+
+To predict the labels on the test sets, you can run the following commands corresponding to the language you are interested in.
+
+### Multilingual (for all languages except English, Italian, Spanish, and Polish)
+
+#### Subtask 1 and 2
+```
+python predict.py logs/multilingual_1_2_3_parallel_s1_s2_s3_v2/$DATETIME/model.pt \
+                  "dev_phase/merged subtasks/merged_test_$LANG_data.tsv" \
+                  test_prediction/multilingual_1_2_3_parallel_s1_s2_s3_v2.tsv \
+                  --device 0
+```
+
+#### Subtask 3
+```
+python3 train.py --dataset_config configs/multilingual_1_3_parallel_weighted_v2_2.json \
+                --parameters_config configs/params_multi.json \
+                --device 0
+```
+
+### English
+```
+#### Subtask 1 and 2
+python3 train.py --dataset_config configs/eng_1_2_3_parallel_s1_s2_s3_v2.json \
+                --parameters_config configs/params_eng.json \
+                --device 0
+```
+
+#### Subtask 3
+```
+python3 train.py --dataset_config configs/eng_1_3_parallel_weighted_v2_2.json \
+                --parameters_config configs/params_eng.json \
+                --device 0
+```
+
+### Spanish
+
+#### Subtask 1 and 2
+```
+python3 train.py --dataset_config configs/spa_1_2_3_parallel_s1_s2_s3_v2.json \
+                --parameters_config configs/params_spa.json \
+                --device 0
+```
+
+#### Subtask 3
+```
+python3 train.py --dataset_config configs/spa_1_3_parallel_weighted_v2_2.json \
+                --parameters_config configs/params_spa.json \
+                --device 0
+```
+
+
+### Italian
+
+#### Subtask 1 and 2
+```
+python3 train.py --dataset_config configs/ita_1_2_parallel_weighted_v2.json \
+                --parameters_config configs/params_ita.json \
+                --device 0
+```
+
+### Polish
+
+#### Subtask 1 and 2
+```
+python3 train.py --dataset_config configs/pol_1_2_parallel_weighted_v2.json \
+                --parameters_config configs/params_pol.json \
+                --device 0
+```
