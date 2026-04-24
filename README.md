@@ -40,7 +40,7 @@ The final configurations of our system are [S1, S2, S3] for subtasks 1 and 2, wh
 
 ## Getting started
 
-We built our models on top of MaChAmp v0.2, a multi-task learning toolkit for NLP which allows easy fine-tuning of contextualized embeddings and multi-dataset training. To get started, clone this repository on your own path.
+We built our models on top of [MaChAmp](https://github.com/machamp-nlp/machamp) v0.2, a multi-task learning toolkit for NLP which allows easy fine-tuning of contextualized embeddings and multi-dataset training. To get started, clone this repository on your own path.
 
 ### Environment
 
