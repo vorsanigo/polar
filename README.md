@@ -6,7 +6,7 @@ and Cross-cultural Polarization Classification**, related to the SemEval 2026 ta
 
 ## Task overview
 
-Online polarization promotes social fragmentation, misinformation, hate, and toxic language. Polarization has been studied from social and communication perspectives, but it can also be addressed computationally as a text classification task. Due to the variety of polarization targets and manifestations, polarization is a complex phenomenon to study, and both detecting and characterizing it are challenging tasks.
+Online polarization promotes social fragmentation, misinformation, hate, and toxic language.
 We present here the systems submitted by the DigiS-FBK team to SemEval-2026 Task 9 *POLAR* aimed at detecting polarization in textual content (subtask 1) and identifying its type (subtask 2) and manifestation (subtask 3) in a multilingual, multicultural, and multievent context. Considering the strong link between subtasks, we propose an approach that leverages a multi-task learning paradigm. 
 Our results reveal that, despite the variability in scores across languages, the overall performance when using multi-task learning is higher than when adopting a single task approach in all subtasks
 
