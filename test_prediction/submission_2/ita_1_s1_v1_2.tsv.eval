@@ -1,0 +1,18 @@
+{
+    "polarization_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "sum": 0.0
+}

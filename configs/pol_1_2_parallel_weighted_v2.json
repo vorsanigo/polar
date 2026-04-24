@@ -1,0 +1,99 @@
+{
+    "POLAR_POL": {
+        "train_data_path": "dev_phase/merged subtasks split train/merged_train_pol_split_shuffled.tsv", //"dev_phase/merged subtasks train big/merged_train_pol_data.tsv"
+        "dev_data_path": "dev_phase/merged subtasks split dev/merged_dev_pol_split_shuffled.tsv", //"dev_phase/merged subtasks/merged_dev_eng_data.tsv", commented bcs we do not have it yet
+        "sent_idxs": [1],
+        "skip_first_line": true,
+        "tasks": {
+            // subtask 1
+            "polarization_eng": {
+                "task_type": "classification",
+                "column_idx": 2,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 1
+            }
+            ,
+            // subtask 2
+            "political_eng": {
+                "task_type": "classification",
+                "column_idx": 3,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 1
+            },
+            "ratial_ethnic_eng": {
+                "task_type": "classification",
+                "column_idx": 4,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 1
+            },
+            "religious_eng": {
+                "task_type": "classification",
+                "column_idx": 5,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 1
+            },
+            "gender_sexual_eng": {
+                "task_type": "classification",
+                "column_idx": 6,
+                "metric": "f1_macro",
+                "class_weights": "balanced", 
+                "loss_weight": 1
+            },
+            "other_eng": {
+                "task_type": "classification",
+                "column_idx": 7,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 1
+            }/*,
+            // subtask 3
+            "stereotype_eng": {
+                "task_type": "classification",
+                "column_idx": 8,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            },
+            "vilification_eng": {
+                "task_type": "classification",
+                "column_idx": 9,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            },
+            "dehumanization_eng": {
+                "task_type": "classification",
+                "column_idx": 10,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            },
+            "extreme_language_eng": {
+                "task_type": "classification",
+                "column_idx": 11,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            },
+            "lack_of_empathy_eng": {
+                "task_type": "classification",
+                "column_idx": 12,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            },
+            "invalidation_eng": {
+                "task_type": "classification",
+                "column_idx": 13,
+                "metric": "f1_macro",
+                "class_weights": "balanced",
+                "loss_weight": 0.166
+            }*/
+        }
+    }
+
+}

@@ -1,0 +1,93 @@
+{
+    "dehumanization_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "extreme_language_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "invalidation_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "lack_of_empathy_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "stereotype_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "vilification_eng": {
+        "optimization_metrics": "f1_macro",
+        "f1_macro": {
+            "precision_0": 0.0,
+            "recall_0": 0.0,
+            "f1_0": 0.0,
+            "precision_1": 0.0,
+            "recall_1": 0.0,
+            "f1_1": 0.0,
+            "precision_macro": 0.0,
+            "recall_macro": 0.0,
+            "f1_macro": 0.0,
+            "sum": "f1_macro"
+        }
+    },
+    "sum": 0.0
+}
