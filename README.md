@@ -10,7 +10,7 @@ Online polarization promotes social fragmentation, misinformation, hate, and tox
 We present here the systems submitted by the DigiS-FBK team to SemEval-2026 Task 9 *POLAR* aimed at detecting polarization in textual content (subtask 1) and identifying its type (subtask 2) and manifestation (subtask 3) in a multilingual, multicultural, and multievent context. Considering the strong link between subtasks, we propose an approach that leverages a multi-task learning paradigm. 
 Our results reveal that, despite the variability in scores across languages, the overall performance when using multi-task learning is higher than when adopting a single task approach in all subtasks
 
-### Data and task decription
+### Data and task description
 
 The *POLAR* shared task is organized into three related subtasks (S1, S2, and S3) aimed at polarization detection and characterization.
 
