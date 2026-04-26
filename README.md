@@ -38,7 +38,7 @@ The final configurations of our system are [S1, S2, S3] for subtasks 1 and 2, wh
 
 <p align="center">
     <img src="img/sys_machamp.jpg" width="1000" alt="System overview image">
-    <b>Fig. 1</b>: <i> High-level overview of our multi-task learning framework for polarization detection and classification, with an example from the \texttt{train} set and associated output labels for the three \textsc{polar} subtasks.</i>
+    <b>Fig. 1</b>: <i> High-level overview of our multi-task learning framework for polarization detection and classification, with an example from the train set and associated output labels for the three *POLAR* subtasks.</i>
 </p>
 
 ## Getting started
