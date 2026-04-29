@@ -84,8 +84,10 @@ python3 train.py --dataset_config configs/multilingual_1_3_parallel_weighted_v2_
 ```
 
 ### English
-```
+
 #### Subtask 1 and 2
+```
+
 python3 train.py --dataset_config configs/eng_1_2_3_parallel_s1_s2_s3_v2.json \
                 --parameters_config configs/params_eng.json \
                 --device 0
